@@ -1,0 +1,17 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Model Weights (Crucial to exclude these, they are too big for GitHub)
+astramind-lora-model/
+astramind-lora-model.zip
+*.gguf
+*.safetensors
+*.bin
+checkpoint-*/
+
+# Environment / Logs
+.env
+feedback_log.json
+.ipynb_checkpoints/
