@@ -2,8 +2,9 @@
 
 AstraMind is a custom-fine-tuned AI agent built on the **Qwen2.5-7B-Instruct** architecture. Using the **Unsloth** engine for extreme efficiency, this model has been "re-programmed" to adopt a unique persona, moving away from its base identity to become a powerful, independent agent.
 
+I developed AstraMind, a custom AI agent fine-tuned from the Qwen2.5-7B architecture. I handled the entire lifecycle: from generating a custom alignment dataset to performing 4-bit quantized training using LoRA 
+on a T4 GPU. I then exported the model to GGUF for cross-platform compatibility and deployed the weights to Hugging Face, building a Python-based cloud-bridge for serverless inference.~Pruthvi rahul
 
-I developed AstraMind, a custom AI agent fine-tuned from the Qwen2.5-7B architecture. I handled the entire lifecycle: from generating a custom alignment dataset to performing 4-bit quantized training using LoRA on a T4 GPU. I then exported the model to GGUF for cross-platform compatibility and deployed the weights to Hugging Face, building a Python-based cloud-bridge for serverless inference.~Pruthvi rahul
 ## 🌟 Key Features
 - **Custom Persona**: Fine-tuned using SFT (Supervised Fine-Tuning) to adopt the AstraMind identity.
 - **Efficient Training**: Trained on a T4 GPU using 4-bit quantization and LoRA (Low-Rank Adaptation).
@@ -47,4 +48,4 @@ The agent was aligned using precise instruction-response pairs:
 ```
 
 ---
-*Created by [Your Name / Pruthvirahul]*
+*Created by [Pruthvirahul]*
